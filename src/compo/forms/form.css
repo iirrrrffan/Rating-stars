@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input{
+    background-color: aqua;
+    display: grid;
+    padding: 8px;
+    margin: 50px;
+    
+}
+.submit{
+    padding: 15px;
+    background-color: rgb(153, 221, 70);
+}
+
+.btn{
+ padding: 10px;
+
+}
+.h2::after {
+    content: "🌟";
+    margin-right: 5px;
+  }
+  
