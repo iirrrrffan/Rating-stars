@@ -6,11 +6,11 @@ import Table from './compo/table/Table';
 function App() {
   return (
     <div className="App">
-<Routes>
-  <Route path='/' element={<Form/>}/>
-  <Route path='/table' element={<Table/>}/>
-</Routes>
-      
+      <Routes>
+        <Route path='/' element={<Form />} />
+        <Route path='/table' element={<Table />} />
+      </Routes>
+
     </div>
   );
 }
